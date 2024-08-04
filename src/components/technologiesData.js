@@ -1,3 +1,4 @@
+//edited on website
 const technologies = [
   {
     name: "HTML",
