@@ -26,12 +26,12 @@ const technologies = [
   },
   {
     name: "Tailwind CSS",
-    logo: "assets/logos/tailwind-css3232.logowik.com.webp",
+    logo: "assets/logos/tailwind.webp",
     proficiency: 80,
   },
   {
     name: "Supabase",
-    logo: "public/assets/logos/supabase-TAiY.png",
+    logo: "assets/logos/supdabase.png",
     proficiency: 80,
   },
 ];
