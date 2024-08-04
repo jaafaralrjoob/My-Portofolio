@@ -31,7 +31,7 @@ const technologies = [
   },
   {
     name: "Supabase",
-    logo: "assets/logos/supdabase.png",
+    logo: "assets/logos/supabase.png",
     proficiency: 80,
   },
 ];
