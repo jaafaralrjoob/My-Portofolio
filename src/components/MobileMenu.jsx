@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { HiMenu, HiX } from "react-icons/hi"; // Import menu icons
+import { HiX } from "react-icons/hi";
 import { CiMenuBurger } from "react-icons/ci";
 
 const MobileMenu = () => {

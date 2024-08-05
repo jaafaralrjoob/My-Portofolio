@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
 import MobileMenu from "./MobileMenu";
 
@@ -51,7 +51,7 @@ const Header = () => {
           </Link>
         </nav>
         <span className="flex items-center sm:hidden">
-          <MobileMenu /> {/* Include the MobileMenu component */}
+          <MobileMenu />
         </span>
       </div>
     </header>
