@@ -15,7 +15,7 @@ const About = () => {
       >
         About Me
       </motion.h2>
-      <div className="flex flex-col items-center justify-center md:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-center px-4 text-center md:flex-row">
         <motion.img
           src="assets/Profile.png"
           alt="About Me"

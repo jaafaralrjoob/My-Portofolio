@@ -8,7 +8,7 @@ const Hero = () => {
       id="hero"
       className="relative flex h-screen items-center justify-center bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 text-white"
     >
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto px-4 text-center">
         <motion.h1
           className="mb-4 text-6xl font-extrabold"
           initial={{ y: -100, opacity: 0 }}

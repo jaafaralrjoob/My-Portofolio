@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-scroll";
+import MobileMenu from "./MobileMenu";
 
 const Header = () => {
   return (
-    <header className="bg-primary fixed top-0 z-50 w-full p-1 text-white shadow-md">
+    <header className="fixed top-0 z-50 w-full bg-primary px-3 text-white shadow-md">
       <div className="container mx-auto flex items-center justify-between py-4">
-        <div className="text-2xl font-bold">Jaafar Alrjoob</div>
-        <nav className="space-x-4">
+        <div className="text-nowrap text-2xl font-bold">Jaafar Alrjoob</div>
+
+        <nav className="hidden space-x-1 sm:flex sm:space-x-4">
           <Link
             to="hero"
             smooth={true}
@@ -48,6 +50,9 @@ const Header = () => {
             Contact
           </Link>
         </nav>
+        <span className="flex items-center sm:hidden">
+          <MobileMenu /> {/* Include the MobileMenu component */}
+        </span>
       </div>
     </header>
   );

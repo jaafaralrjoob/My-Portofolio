@@ -14,7 +14,7 @@ const Technologies = () => {
         >
           Technologies I Use
         </motion.h2>
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="ontainer mx-auto grid grid-cols-1 gap-8 px-4 md:grid-cols-2 lg:grid-cols-3">
           {technologies.map((tech, index) => (
             <motion.div
               key={index}
