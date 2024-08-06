@@ -79,7 +79,7 @@ const Contact = () => {
         <div className="flex-1 p-8">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            className="rounded-lg border border-gray-300 bg-white p-8 shadow-lg transition-transform duration-300 hover:scale-105 text-grey-800"
+            className="rounded-lg border border-gray-300 bg-white p-8 text-gray-700 shadow-lg transition-transform duration-300 hover:scale-105"
           >
             <motion.div
               className="mb-4"
