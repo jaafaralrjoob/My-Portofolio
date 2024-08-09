@@ -40,6 +40,13 @@ const projects = [
     description: "React | Realtime API",
     imageUrl: "assets/projects/UsePopcorn.png",
   },
+
+  {
+    title: "Omnifood",
+    url: "https://omnifood-jafar.netlify.app/",
+    description: "HTML | CSS | JS",
+    imageUrl: "assets/projects/Omnifood-—-Nver-cook-again.png",
+  },
 ];
 
 const Projects = () => {
