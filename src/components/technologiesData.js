@@ -25,7 +25,7 @@ const technologies = [
     proficiency: 95,
   },
   {
-    name: "NEXT",
+    name: "NEXT.js",
     logo: "assets/logos/NEXT.png",
     proficiency: 95,
   },
