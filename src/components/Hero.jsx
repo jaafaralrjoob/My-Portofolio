@@ -23,7 +23,7 @@ const Hero = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1, ease: "easeOut" }}
         >
-          Im a front end web developer using React
+          Im a front end web developer
         </motion.p>
         <Link to="projects" smooth={true} duration={500}>
           <motion.button

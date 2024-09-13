@@ -17,7 +17,7 @@ const technologies = [
   {
     name: "TypeScript",
     logo: "assets/logos/typescript.png",
-    proficiency: 75,
+    proficiency: 95,
   },
   {
     name: "React",
@@ -25,14 +25,19 @@ const technologies = [
     proficiency: 95,
   },
   {
+    name: "NEXT",
+    logo: "assets/logos/NEXT.png",
+    proficiency: 95,
+  },
+  {
     name: "Tailwind CSS",
     logo: "assets/logos/tailwind.webp",
-    proficiency: 80,
+    proficiency: 90,
   },
   {
     name: "Supabase",
     logo: "assets/logos/supabase.png",
-    proficiency: 80,
+    proficiency: 90,
   },
 ];
 
