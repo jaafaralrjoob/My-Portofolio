@@ -3,11 +3,18 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "The Wild Oasis",
+    title: "The Wild Oasis Admin Dashboard",
     url: "https://the-wild-oasis-iota-bay.vercel.app/",
     description:
       "React | Styled Components | React Query | React Router | Recharts | React Icons | React Hook Form",
     imageUrl: "assets/projects/The-Wild-Oasis.png",
+  },
+  {
+    title: "The Wild Oasis Client",
+    url: "https://wild-oasis-client-five.vercel.app/",
+    description:
+      "Next | TailwindCSS | Server Actions | Supabase | SSG | Auth.js",
+    imageUrl: "assets/projects/The-Wild-Oasis-Client.png",
   },
   {
     title: "Fast React Pizza",

@@ -1,15 +1,5 @@
 const technologies = [
   {
-    name: "HTML",
-    logo: "assets/logos/html-5.png",
-    proficiency: 100,
-  },
-  {
-    name: "CSS",
-    logo: "assets/logos/css-3.png",
-    proficiency: 100,
-  },
-  {
     name: "JavaScript",
     logo: "assets/logos/js.png",
     proficiency: 100,
@@ -25,7 +15,7 @@ const technologies = [
     proficiency: 95,
   },
   {
-    name: "NEXT.js",
+    name: "NEXT",
     logo: "assets/logos/NEXT.png",
     proficiency: 95,
   },
