@@ -13,7 +13,7 @@ const projects = [
     title: "The Wild Oasis Client",
     url: "https://wild-oasis-client-five.vercel.app/",
     description:
-      "Next | TailwindCSS | Server Actions | Supabase | SSG | Auth.js",
+      "Next | React 19 Hooks | TailwindCSS | Server Actions | Supabase | SSG | Auth.js",
     imageUrl: "assets/projects/The-Wild-Oasis-Client.png",
   },
   {
